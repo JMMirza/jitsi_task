@@ -1,0 +1,96 @@
+.App {
+
+  text-align: left;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+body{
+  overflow: hidden;
+  background-color: #1F2124 !important;
+  color: white !important;
+  max-height: 100vh;
+}
+.startpage-content{
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.main-page-container{
+  display: flex;
+  flex-direction: column;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+
+}
+.main-section{
+  height: 85vh !important;
+}
+.card-w{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 85vh !important;
+  overflow: hidden;
+}
+.user-card{
+  flex: 33.33% !important;
+  /* background-color: #87868A; */
+  /* width: 100%; */
+  /* height: 100% !important; */
+
+}
+.card-img-overlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img{
+  max-height:85vh ;
+  max-width: 100%;
+}
+.card-title{
+  font-size: 36px !important;
+  line-height: 42px !important;
+
+}
+.bottom-bar{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-body{
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #3B4043 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  color: white;
+  margin: 1rem;
+  font-size: 26px !important;
+  line-height: 16px !important;
+  border-radius: 50px !important;
+}
+.hangup{
+  font-size: 32px !important;
+  background-color: #EB5046 !important;
+  width: 80px !important;
+}
+
